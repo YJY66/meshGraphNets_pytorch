@@ -63,6 +63,11 @@ python parse_tfrecord.py
 ```bash
 python train.py
 ```
+FOR MULTI-GPU TRAINING:
+
+```bash
+torchrun --nproc_per_node=2 train_ddp.py --dataset_dir data
+```
 
 ### 4. Run Rollouts & Visualize
 Generate long-horizon predictions and render videos:
