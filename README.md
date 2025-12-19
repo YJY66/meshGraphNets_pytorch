@@ -66,7 +66,8 @@ python train.py
 FOR MULTI-GPU TRAINING:
 
 ```bash
-torchrun --nproc_per_node=2 train_ddp.py --dataset_dir data
+export NGPUS=2 # set as your machine's available GPUs
+torchrun --nproc_per_node=$NGPUS train_ddp.py --dataset_dir data
 ```
 
 ### 4. Run Rollouts & Visualize
