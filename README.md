@@ -14,18 +14,6 @@ This repository provides a **PyTorch + PyG (PyTorch Geometric)** implementation 
 - **Physics-aware learning**: Leverages mesh structure to respect geometric and physical priors.
 - **High performance**: Runs **10–100× faster** than traditional solvers while maintaining fidelity.
 - **Extensible**: Built on PyTorch Geometric—easy to adapt to new PDEs, materials, or domains.
-
----
-
-## 👥 Authors
-
-- Jiang  
-- Zhang  
-- Chu  
-- Qian  
-- Li  
-- Wang  
-
 ---
 
 ## 🛠️ Requirements
